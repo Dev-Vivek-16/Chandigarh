@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+body {
+  background-image: linear-gradient(50deg, #6699ff, teal);
+}
+
+.header {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.title {
+  width: 50%;
+  float: left;
+  margin-bottom: 30px;
+  margin-left: ;
+}
+
+.nav {
+  width: 50%;
+  float: right;
+  margin: 10px 0 30px 0 ;
+}
+
+.nav ol li {
+  display: inline;
+  padding: 2px 5px;
+  border: 1px solid white;
+  padding: 2px 4px;
+  margin-right: 5px;
+  
+}
+
+.nav ol li a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav ol {
+  float: right;
+}
+
+.main {
+  width: 100%;
+}
+
+.heading {
+  clear: both;
+  text-align: center;
+  margin-bottom: 30px;
+  border: 1px solid white;
+  border-style: dotted;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.heading p {
+  font-weight: 900;
+}
+
+.right {
+  float: right;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.left {
+  float: left;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.right h3 {
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-style: double;
+}
+
+.left h3 {
+  text-align: center; 
+  text-decoration: underline;
+  text-decoration-style: double;
+}
+
+.image1 {
+  width: 80%;
+  margin: 0 auto;
+  
+}
+
+.image2 {
+  width: 80%;
+  margin: 0 auto;
+  
+}
+
+img {
+  width: 100%;
+  margin-bottom: 25px;
+  margin-top: 15px;
+}
+
+.right p {
+  text-align: center;
+  font-weight: 100;
+}
+
+.left p {
+  text-align: center;
+  font-weight: 100;
+}
+
+.footer {
+  clear: both;
+  text-align: center;
+}
+
+.title h1 {
+  padding-left: 15px;
+}
+
+@keyframes myAnimation {
+        from { background-color: teal;
+         transform: rotate(0deg);}
+        to { background-color: gold;
+         transform: rotate(360deg);}
+      }
+      .animation {
+         animation-name: myAnimation;
+         animation-duration: 1s;
+         /* try to change the value below with a number */
+         animation-iteration-count: infinite;
+         width: 100px;
+         height: 100px;
+         background-color: gold;
+         margin: 25px auto;
+         display: ;
+      }
+      
+      .lol { clear: both;
